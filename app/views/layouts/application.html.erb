@@ -22,6 +22,10 @@
   <body>
     <header>
       <h1>This is a Title</h1>
+      <nav>
+        <%= link_to "New post", new_post_path%>
+        <%= link_to "Home", posts_path %>
+      </nav>
     </header>
 
     <%= yield %>
